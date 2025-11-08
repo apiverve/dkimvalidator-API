@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/dkimvalidator",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "DKIM Validator checks the DomainKeys Identified Mail (DKIM) DNS records for a domain to verify that they are present and correctly formatted.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/dkimvalidator-API.git"
   },
   "keywords": [
-    "dkim","dkim check","dkim validator","email security","dns check"
+    "dkim", "dkim check", "dkim validator", "email security", "dns check"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/dkimvalidator-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/dkimvalidator?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/dkimvalidator?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.8.4"
+    "axios": "1.13.2"
   }
 }
